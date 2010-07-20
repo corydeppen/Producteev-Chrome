@@ -3,7 +3,10 @@
 	"version" : "0.1",
 	"description" : "Producteev Chrome gives you quick access to add, edit, and view tasks.",
 	"browser_action" : {
-		"default_icon" : "logo.png",
+		"default_icon" : "icon_48.png",
 		"popup" : "popup.html"
-	} 
+	},
+	"icons": { "16": "icon_16.png",
+	           "48": "icon_48.png",
+	          "128": "icon_128.png" }
 }
